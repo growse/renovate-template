@@ -1,0 +1,12 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Automerges github actions after some stability period",
+  "packageRules": [
+    {
+      "matchManagers": ["github-actions"],
+      "minimumReleaseAge": "4 days",
+      "internalChecksFilter": "strict",
+      "automerge": true
+    }
+  ]
+}
