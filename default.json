@@ -4,7 +4,8 @@
     "config:base",
     ":disableRateLimiting",
     ":rebaseStalePrs",
-    ":disableDependencyDashboard"
+    ":disableDependencyDashboard",
+    "helpers:pinGitHubActionDigests"
   ],
   "assignees": ["growse"],
   "lockFileMaintenance": {
