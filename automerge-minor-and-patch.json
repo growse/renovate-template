@@ -1,10 +1,12 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Automerges minor and patch revisions as long as they're >=v1, and also pins/digests",
   "packageRules": [
     {
       "matchUpdateTypes": ["minor", "patch"],
       "matchCurrentVersion": "!/^0/",
       "automerge": true
-    }
+    },
+    { "matchUpdateTypes": ["pin", "digest"], "automerge": true }
   ]
 }
