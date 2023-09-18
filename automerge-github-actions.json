@@ -4,7 +4,7 @@
   "packageRules": [
     {
       "matchManagers": ["github-actions"],
-      "minimumReleaseAge": "4 days",
+      "minimumReleaseAge": "7 days",
       "internalChecksFilter": "strict",
       "automerge": true
     }
