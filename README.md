@@ -51,3 +51,14 @@ ENV MYDEPENDENCY_VERSION=v1.2.3
 ```
 
 Will bump the value of this variable using Github Releases as a data source, looking at the `mydep/my-dependency` repository
+
+## Makefile version
+
+`"github>growse/renovate-template:makefile-version"`
+
+A bit like `docker-env`, but uses variables in makefiles.
+
+```Makefile
+# renovate: datasource=github-releases depName=mydep/my-dependency
+MYDEPENDENCY_VERSION := v1.2.3
+```
