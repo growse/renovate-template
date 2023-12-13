@@ -12,5 +12,6 @@
     "enabled": true,
     "automerge": true
   },
+  "recreateWhen": "never",
   "internalChecksFilter": "strict"
 }
