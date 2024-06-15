@@ -13,5 +13,8 @@
     "automerge": true
   },
   "recreateWhen": "never",
-  "internalChecksFilter": "strict"
+  "internalChecksFilter": "strict",
+  "pre-commit": {
+    "enabled": true
+  }
 }
